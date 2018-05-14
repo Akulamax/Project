@@ -542,7 +542,6 @@ while (true) { //бесконечный цикл
 			qkd = (qkd * qm) % n;
 		}
 	}
-
 	if (u==0 || v==0)  return true;
 	bigint qkd2 = qkd*2;
 	for (bigint r=1; r<s; r=r+1) {
@@ -568,7 +567,7 @@ if (p[trivial_limit-1]*p[trivial_limit-1] >= n)
 		return true;
 	if (miller_rabin (n)==0)//тест Миллера-Рабина
 		return false;
-	return lucas_selfridge (n);
+	return lucas_selfridge (n);//тест Лукаса-Селфриджа
 }
 int main()
 {
