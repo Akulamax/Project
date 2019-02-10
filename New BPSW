@@ -578,7 +578,7 @@ bigint n;
 //cout<<"Enter integer to test primality: ";
 //cin>>n;
 ifstream file; // создаем объект класса ifstream
- file.open("C:\\Users\\Михаил\\project_2019\\test1.120.txt"); // открываем файл
+ file.open("C:\\Users\\Михаил\\project_2019\\test.1.50.composites.txt"); // открываем файл
  if (!file)
  {
  cout << "Файл не открыт\n\n";
